@@ -1,0 +1,152 @@
+
+
+
+
+
+.container{
+
+    height:calc(100vh -60px);
+    width:100%;
+    margin-top: 5.5rem;
+    margin-bottom: -5.5rem;
+}
+
+.wrapper{
+
+    height:100%;
+    width:85%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    gap:15rem;
+}
+
+.title{
+
+
+    color:#f00;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.left{
+
+    flex:1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+.right{
+    flex:1;
+
+}
+
+
+.manEatingImg{
+
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    margin-top:20px;
+
+}
+
+.firstMag{
+
+    margin-bottom:24px;
+    font-size:32px;
+
+}
+
+.firstMag  span{
+
+color:#f00;
+font-weight: bold;
+font-size: 26px;
+}
+
+.firstMag{
+
+    font-size: 26px;
+
+}
+.firstMag span{
+
+
+    font-weight: bold;
+    
+}
+
+.secondMag{
+
+
+    font-size:26px;
+
+}
+
+.secondMag span{
+
+    font-weight:bold;
+    color:rgb(221,33,33);
+
+}
+.desc{
+
+    margin-top:50px;
+    max-width:350px;
+    line-height:30px;
+    color:#555;
+    font-size:18px;
+    font-weight:300px;
+}
+.buttons{
+    margin-top:4rem;
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+.buttons button{
+
+    outline:none;
+    border:1px solid transparent;
+    padding:0.5rem 1.25rem;
+    color:#fff;
+    background-color:#f00;
+    font-size:18px;
+    transition:150ms all;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.buttons button:hover{
+
+    border:#f00;
+    background-color:#fff;
+    color:#f00;
+    object-fit: cover;
+
+
+}
+.button{
+
+    display:flex;
+    align-items: center;
+    gap:8px;
+    text-decoration: none;
+    color:inherit;
+
+} 
+
+
+
+
+
+
+
+
+

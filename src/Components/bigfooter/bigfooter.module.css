@@ -1,0 +1,126 @@
+
+
+.container{
+
+    height:225px;
+    width:100%;
+    padding-bottom: 5rem;
+    margin-top:7.5rem;
+
+
+}
+.wrapper{
+
+    width:80%;
+    height:100%;
+    margin:  0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col{
+flex:1;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+
+
+}
+
+.col:nth-child(2){
+
+align-items:center;
+
+
+}
+
+.col:last-child(3){
+
+
+    align-items: flex-end;
+}
+
+.title{color:#fff;
+margin-bottom: 16px;}
+
+.list{
+
+    display:flex;
+    flex-direction: column;
+
+    gap:6px;
+    list-style: none;
+    margin-left: 6px;;
+}
+.list  li{
+    color:#777;
+    font-size: 18px;
+}
+
+.list .workingTim{
+
+    color:#000;
+    font-size:26px;
+}
+
+.list .workingTime:nth-child(2){
+
+
+margin-bottom: 10px;
+}
+
+.iconList{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    list-style: none;
+    cursor:pointer;
+    transition:150ms all;
+
+}
+
+.iconList:hover{
+
+    color:#333;
+
+}
+.attribution{
+
+    margin:20px;
+    text-decoration: none;
+    color:#444;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+gap:12px;
+margin-left:12.5rem;
+margin-top:5rem;
+padding-bottom:5rem;
+
+
+
+}
+.attribution a{
+
+
+text-decoration:none;
+transition:150ms all;
+
+     color:#222;
+
+
+}
+.attributes a:hover{
+    color:#777;
+}
+
+
+
+
+
